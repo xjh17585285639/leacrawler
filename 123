@@ -1,0 +1,10 @@
+package main
+
+import (
+	"github.com/lealife/leacrawler"
+)
+
+func main() {
+	// url and the target path
+	leacrawler.Fetch("https://gbox.space/", "/Users/XJH/Desktop/lealife")
+}
